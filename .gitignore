@@ -1,3 +1,5 @@
 *.xcbkptlist
 PMAlertController.xcodeproj/project.xcworkspace/xcuserdata
 Carthage/
+Pods/
+.DS_Store
