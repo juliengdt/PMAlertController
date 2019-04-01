@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PMAlertController"
-  s.version      = "4.0.0"
+  s.version      = "4.1.0"
   s.summary      = "PMAlertController is a great and customizable substitute to UIAlertController"
   s.description  = <<-DESC
   					PMAlertController is a small library that allows you to substitute the uncustomizable UIAlertController of Apple, with a beautiful and totally customizable alert that you can use in your iOS app. Enjoy!
@@ -17,5 +17,7 @@ Pod::Spec.new do |s|
     'PMAlertController' => ['Library/Resources/*.png', 'Library/**/*.xib']
   }
   s.framework  = "UIKit"
+  s.dependency 'lottie-ios'
+  
   s.requires_arc = true
 end

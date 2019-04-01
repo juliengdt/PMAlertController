@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Lottie
 
 @objc public enum PMAlertControllerStyle : Int {
     case alert // The alert will adopt a width of 270 (like UIAlertController).
@@ -23,6 +24,7 @@ import UIKit
     @IBOutlet weak open var headerViewHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak open var headerViewTopSpaceConstraint: NSLayoutConstraint!
     @IBOutlet weak open var alertImage: UIImageView!
+    @IBOutlet weak open var alertLottie: LottieView!
     @IBOutlet weak open var alertContentStackView: UIStackView!
     @IBOutlet weak open var alertTitle: UILabel!
     @IBOutlet weak open var alertDescription: UILabel!

@@ -130,4 +130,31 @@ class ViewController: UIViewController {
         self.present(alertVC, animated: true, completion: nil)
     }
     
+    @IBAction func showAlertWithLottieAnimation(_ sender: Any) {
+        
+        let alertVC = PMAlertController(title: "A propos de votre position",
+                          description: "La position de votre GPS est imprécise. Confirmez-vous que vous êtes actuellement dans le batiment de l'hopital ?",
+                          lottie: "success",
+                          style: .walkthrough)
+        
+        alertVC.addAction(PMAlertAction(title: "Je suis bien à l'intérieur", style: .cancel, action: { () -> Void in
+            print("Cancel")
+        }))
+        
+        alertVC.addAction(PMAlertAction(title: "Non, améliorer ma position", style: .cancel, action: { () in
+            print("No thanks")
+        }))
+
+        
+        alertVC.alertActionStackView.axis = .vertical
+        alertVC.alertActionStackViewLeadingConstraint.constant = 20
+        alertVC.alertActionStackViewTrailingConstraint.constant = 20
+        alertVC.alertActionStackViewHeightConstraint.constant = 100
+        alertVC.alertActionStackViewTopConstraint.constant = 20
+        alertVC.alertActionStackViewBottomConstraint.constant = 20
+        alertVC.gravityDismissAnimation = false
+        self.present(alertVC, animated: true) {
+            alertVC.playLottie(loopMode: .loop, animationSpeed: 1.0)
+        }
+    }
 }

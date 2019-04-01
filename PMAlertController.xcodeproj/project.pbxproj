@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FE317D8C89A55E1D57B7C7D /* Pods_PMAlertControllerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A244CBE2A2055C4EE7E3654F /* Pods_PMAlertControllerUITests.framework */; };
+		27531056BBB7C99A6DF3BF6F /* Pods_PMAlertControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8ADDD70F588BD1F38EFA3C /* Pods_PMAlertControllerTests.framework */; };
 		453B4EDA1CDE3F0A00BFB901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B4ED91CDE3F0A00BFB901 /* AppDelegate.swift */; };
 		453B4EDC1CDE3F0A00BFB901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B4EDB1CDE3F0A00BFB901 /* ViewController.swift */; };
 		453B4EDF1CDE3F0A00BFB901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453B4EDD1CDE3F0A00BFB901 /* Main.storyboard */; };
@@ -19,6 +21,10 @@
 		526FBB2E1CF0FD7D005E5970 /* PMAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B4F0C1CDE411100BFB901 /* PMAlertController.swift */; };
 		526FBB2F1CF0FD7D005E5970 /* PMAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453B4F0D1CDE411100BFB901 /* PMAlertController.xib */; };
 		526FBB301CF0FD7D005E5970 /* PMAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B4F161CDF456F00BFB901 /* PMAlertAction.swift */; };
+		924E38EC1C40237F55A4E026 /* Pods_PMAlertControllerSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7225BB25F4A5D7E2AC24B6B6 /* Pods_PMAlertControllerSample.framework */; };
+		EB6974061579B3B9496B7FDA /* Pods_PMAlertController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CCD13747E79F50FF8815B6 /* Pods_PMAlertController.framework */; };
+		F9998F9C225240EA00281302 /* PMAlertController+Lottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9998F9B225240EA00281302 /* PMAlertController+Lottie.swift */; };
+		F9998F9E225248E400281302 /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = F9998F9D225248E400281302 /* success.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +66,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		186136BAF5286CD1C0A76F5B /* Pods-PMAlertControllerSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PMAlertControllerSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PMAlertControllerSample/Pods-PMAlertControllerSample.debug.xcconfig"; sourceTree = "<group>"; };
+		1C2E78B91A4A33CBE28AFEBE /* Pods-PMAlertController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PMAlertController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PMAlertController/Pods-PMAlertController.debug.xcconfig"; sourceTree = "<group>"; };
+		33D240181A1C8FBB080300F2 /* Pods-PMAlertController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PMAlertController.release.xcconfig"; path = "Pods/Target Support Files/Pods-PMAlertController/Pods-PMAlertController.release.xcconfig"; sourceTree = "<group>"; };
+		38ABC3199FBF6A6556C5C03E /* Pods-PMAlertControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PMAlertControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PMAlertControllerTests/Pods-PMAlertControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AF896B8AC8AB77AFB33BE1C /* Pods-PMAlertControllerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PMAlertControllerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PMAlertControllerUITests/Pods-PMAlertControllerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D8ADDD70F588BD1F38EFA3C /* Pods_PMAlertControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PMAlertControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		453B4ED61CDE3F0A00BFB901 /* PMAlertControllerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PMAlertControllerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		453B4ED91CDE3F0A00BFB901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		453B4EDB1CDE3F0A00BFB901 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +88,14 @@
 		526FBB221CF0FD63005E5970 /* PMAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PMAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		526FBB241CF0FD63005E5970 /* PMAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMAlertController.h; sourceTree = "<group>"; };
 		526FBB261CF0FD63005E5970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		552ACC40E1A403AFB7CE54E7 /* Pods-PMAlertControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PMAlertControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PMAlertControllerTests/Pods-PMAlertControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B4685F2FEEA7BA425B09EA5 /* Pods-PMAlertControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PMAlertControllerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PMAlertControllerUITests/Pods-PMAlertControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7225BB25F4A5D7E2AC24B6B6 /* Pods_PMAlertControllerSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PMAlertControllerSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CCD13747E79F50FF8815B6 /* Pods_PMAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PMAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A244CBE2A2055C4EE7E3654F /* Pods_PMAlertControllerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PMAlertControllerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9874140AE986DA1D370C4B5 /* Pods-PMAlertControllerSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PMAlertControllerSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-PMAlertControllerSample/Pods-PMAlertControllerSample.release.xcconfig"; sourceTree = "<group>"; };
+		F9998F9B225240EA00281302 /* PMAlertController+Lottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PMAlertController+Lottie.swift"; sourceTree = "<group>"; };
+		F9998F9D225248E400281302 /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +104,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				526FBB291CF0FD63005E5970 /* PMAlertController.framework in Frameworks */,
+				924E38EC1C40237F55A4E026 /* Pods_PMAlertControllerSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27531056BBB7C99A6DF3BF6F /* Pods_PMAlertControllerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE317D8C89A55E1D57B7C7D /* Pods_PMAlertControllerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,12 +128,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB6974061579B3B9496B7FDA /* Pods_PMAlertController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EF40310246000456F07B695 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E78B91A4A33CBE28AFEBE /* Pods-PMAlertController.debug.xcconfig */,
+				33D240181A1C8FBB080300F2 /* Pods-PMAlertController.release.xcconfig */,
+				186136BAF5286CD1C0A76F5B /* Pods-PMAlertControllerSample.debug.xcconfig */,
+				B9874140AE986DA1D370C4B5 /* Pods-PMAlertControllerSample.release.xcconfig */,
+				38ABC3199FBF6A6556C5C03E /* Pods-PMAlertControllerTests.debug.xcconfig */,
+				552ACC40E1A403AFB7CE54E7 /* Pods-PMAlertControllerTests.release.xcconfig */,
+				3AF896B8AC8AB77AFB33BE1C /* Pods-PMAlertControllerUITests.debug.xcconfig */,
+				5B4685F2FEEA7BA425B09EA5 /* Pods-PMAlertControllerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		453B4ECD1CDE3F0A00BFB901 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +157,8 @@
 				453B4ED81CDE3F0A00BFB901 /* PMAlertControllerSample */,
 				526FBB231CF0FD63005E5970 /* PMAlertController */,
 				453B4ED71CDE3F0A00BFB901 /* Products */,
+				2EF40310246000456F07B695 /* Pods */,
+				E8324BE8619AC831937F2074 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +192,7 @@
 				453B4F0C1CDE411100BFB901 /* PMAlertController.swift */,
 				453B4F0D1CDE411100BFB901 /* PMAlertController.xib */,
 				453B4F161CDF456F00BFB901 /* PMAlertAction.swift */,
+				F9998F9B225240EA00281302 /* PMAlertController+Lottie.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -158,6 +200,7 @@
 		526FBB181CF0FB99005E5970 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F9998F9D225248E400281302 /* success.json */,
 				526FBB1B1CF0FBA2005E5970 /* Assets.xcassets */,
 				526FBB191CF0FB99005E5970 /* flag.png */,
 			);
@@ -171,6 +214,17 @@
 				526FBB261CF0FD63005E5970 /* Info.plist */,
 			);
 			path = PMAlertController;
+			sourceTree = "<group>";
+		};
+		E8324BE8619AC831937F2074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96CCD13747E79F50FF8815B6 /* Pods_PMAlertController.framework */,
+				7225BB25F4A5D7E2AC24B6B6 /* Pods_PMAlertControllerSample.framework */,
+				3D8ADDD70F588BD1F38EFA3C /* Pods_PMAlertControllerTests.framework */,
+				A244CBE2A2055C4EE7E3654F /* Pods_PMAlertControllerUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,10 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 453B4EFE1CDE3F0A00BFB901 /* Build configuration list for PBXNativeTarget "PMAlertControllerSample" */;
 			buildPhases = (
+				FB78788E9752AFC69CBF1CF9 /* [CP] Check Pods Manifest.lock */,
 				453B4ED21CDE3F0A00BFB901 /* Sources */,
 				453B4ED31CDE3F0A00BFB901 /* Frameworks */,
 				453B4ED41CDE3F0A00BFB901 /* Resources */,
 				52A3DD6C1CF0F891000C72E9 /* Embed Frameworks */,
+				843BDE499AF63B5D77B83C88 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 453B4F011CDE3F0A00BFB901 /* Build configuration list for PBXNativeTarget "PMAlertControllerTests" */;
 			buildPhases = (
+				6766C77B49D2ADCFAE05EC9F /* [CP] Check Pods Manifest.lock */,
 				453B4EE61CDE3F0A00BFB901 /* Sources */,
 				453B4EE71CDE3F0A00BFB901 /* Frameworks */,
 				453B4EE81CDE3F0A00BFB901 /* Resources */,
@@ -228,6 +285,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 453B4F041CDE3F0A00BFB901 /* Build configuration list for PBXNativeTarget "PMAlertControllerUITests" */;
 			buildPhases = (
+				49691FF68AE8F45A0CBF757A /* [CP] Check Pods Manifest.lock */,
 				453B4EF11CDE3F0A00BFB901 /* Sources */,
 				453B4EF21CDE3F0A00BFB901 /* Frameworks */,
 				453B4EF31CDE3F0A00BFB901 /* Resources */,
@@ -246,6 +304,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 526FBB2B1CF0FD63005E5970 /* Build configuration list for PBXNativeTarget "PMAlertController" */;
 			buildPhases = (
+				E0A3FA1BC5F61EABD9DA327B /* [CP] Check Pods Manifest.lock */,
 				526FBB1D1CF0FD63005E5970 /* Sources */,
 				526FBB1E1CF0FD63005E5970 /* Frameworks */,
 				526FBB1F1CF0FD63005E5970 /* Headers */,
@@ -272,8 +331,9 @@
 				TargetAttributes = {
 					453B4ED51CDE3F0A00BFB901 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6HKP633729;
 						LastSwiftMigration = 1020;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					453B4EE91CDE3F0A00BFB901 = {
 						CreatedOnToolsVersion = 7.3;
@@ -315,6 +375,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9998F9E225248E400281302 /* success.json in Resources */,
 				453B4EE41CDE3F0A00BFB901 /* LaunchScreen.storyboard in Resources */,
 				453B4EDF1CDE3F0A00BFB901 /* Main.storyboard in Resources */,
 				526FBB1C1CF0FBA2005E5970 /* Assets.xcassets in Resources */,
@@ -346,6 +407,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49691FF68AE8F45A0CBF757A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PMAlertControllerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6766C77B49D2ADCFAE05EC9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PMAlertControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		843BDE499AF63B5D77B83C88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PMAlertControllerSample/Pods-PMAlertControllerSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PMAlertControllerSample/Pods-PMAlertControllerSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0A3FA1BC5F61EABD9DA327B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PMAlertController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB78788E9752AFC69CBF1CF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PMAlertControllerSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		453B4ED21CDE3F0A00BFB901 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -375,6 +529,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				526FBB2E1CF0FD7D005E5970 /* PMAlertController.swift in Sources */,
+				F9998F9C225240EA00281302 /* PMAlertController+Lottie.swift in Sources */,
 				526FBB301CF0FD7D005E5970 /* PMAlertAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,14 +684,16 @@
 		};
 		453B4EFF1CDE3F0A00BFB901 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 186136BAF5286CD1C0A76F5B /* Pods-PMAlertControllerSample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6HKP633729;
 				INFOPLIST_FILE = PMAlertController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codeido.PMAlertControllerSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeido.PMAlertControllerLottieSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -545,14 +702,16 @@
 		};
 		453B4F001CDE3F0A00BFB901 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9874140AE986DA1D370C4B5 /* Pods-PMAlertControllerSample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6HKP633729;
 				INFOPLIST_FILE = PMAlertController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codeido.PMAlertControllerSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeido.PMAlertControllerLottieSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -562,6 +721,7 @@
 		};
 		453B4F021CDE3F0A00BFB901 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38ABC3199FBF6A6556C5C03E /* Pods-PMAlertControllerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PMAlertControllerTests/Info.plist;
@@ -574,6 +734,7 @@
 		};
 		453B4F031CDE3F0A00BFB901 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 552ACC40E1A403AFB7CE54E7 /* Pods-PMAlertControllerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PMAlertControllerTests/Info.plist;
@@ -586,6 +747,7 @@
 		};
 		453B4F051CDE3F0A00BFB901 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AF896B8AC8AB77AFB33BE1C /* Pods-PMAlertControllerUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PMAlertControllerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -597,6 +759,7 @@
 		};
 		453B4F061CDE3F0A00BFB901 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4685F2FEEA7BA425B09EA5 /* Pods-PMAlertControllerUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PMAlertControllerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -608,6 +771,7 @@
 		};
 		526FBB2C1CF0FD63005E5970 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C2E78B91A4A33CBE28AFEBE /* Pods-PMAlertController.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -630,6 +794,7 @@
 		};
 		526FBB2D1CF0FD63005E5970 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D240181A1C8FBB080300F2 /* Pods-PMAlertController.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
